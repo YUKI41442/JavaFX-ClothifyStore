@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="511.0" prefWidth="822.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm_system.controller.HomePageController">
+   <children>
+      <Text layoutX="31.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify" wrappingWidth="90.58131352041494">
+         <font>
+            <Font name="Apple LiGothic Medium" size="31.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.4113573407202216" centerY="0.9418052256532066" radius="0.869942196531792">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.08552631735801697" green="0.15789473056793213" blue="0.1361842155456543" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.2565789520740509" green="0.7105262875556946" blue="0.6348684430122375" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text layoutX="60.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Branderd Wear" wrappingWidth="52.37702885244619">
+         <font>
+            <Font name="Apple LiGothic Medium" size="7.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="0.3681710213776722" startX="0.6864608076009502" startY="0.6888361045130641">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.2186281681060791" green="0.4868420958518982" blue="0.406377911567688" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.22782650589942932" green="0.44736841320991516" blue="0.41077810525894165" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <JFXButton layoutX="420.0" layoutY="87.0" text="About">
+         <font>
+            <Font name="Apple LiGothic Medium" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="199.0" layoutY="87.0" text="New Arrival">
+         <font>
+            <Font name="Apple LiGothic Medium" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="288.0" layoutY="87.0" text="Men's">
+         <font>
+            <Font name="Apple LiGothic Medium" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="345.0" layoutY="87.0" text="Women's">
+         <font>
+            <Font name="Apple LiGothic Medium" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="57.0" layoutY="27.0" prefHeight="13.0" prefWidth="72.0" style="-fx-background-color: black;" text="My Account" textFill="WHITE">
+         <font>
+            <Font name="Apple LiGothic Medium" size="12.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="21.0" fitWidth="24.0" layoutX="32.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/iOS/icons8-user-72(@3×).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="21.0" fitWidth="21.0" layoutX="737.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/Android%202/icons8-shopping-bag-90(-xxhdpi).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="725.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs. 2,900">
+         <font>
+            <Font name="Apple LiGothic Medium" size="12.0" />
+         </font>
+      </Text>
+      <Separator layoutX="-4.0" layoutY="66.0" prefHeight="10.0" prefWidth="841.0" />
+      <JFXButton layoutX="73.0" layoutY="390.0" prefHeight="7.0" prefWidth="118.0" style="-fx-background-color: black;" text="Shop Now" textFill="WHITE">
+         <font>
+            <Font name="Apple LiGothic Medium" size="15.0" />
+         </font>
+      </JFXButton>
+      <Separator layoutX="-4.0" layoutY="124.0" prefHeight="8.0" prefWidth="836.0" />
+   </children>
+</AnchorPane>

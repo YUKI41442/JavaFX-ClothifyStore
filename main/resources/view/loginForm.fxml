@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="login_form" prefHeight="554.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm_system.controller.LoginFormController">
+   <children>
+      <Text layoutX="249.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify" wrappingWidth="162.0181726512743">
+         <font>
+            <Font name="Apple LiGothic Medium" size="53.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.4113573407202216" centerY="0.9418052256532066" radius="0.869942196531792">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.08552631735801697" green="0.15789473056793213" blue="0.1361842155456543" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.2565789520740509" green="0.7105262875556946" blue="0.6348684430122375" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text layoutX="309.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Branderd Wear" wrappingWidth="68.37702885244619">
+         <font>
+            <Font name="Apple LiGothic Medium" size="10.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="0.3681710213776722" startX="0.6864608076009502" startY="0.6888361045130641">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.2186281681060791" green="0.4868420958518982" blue="0.406377911567688" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.22782650589942932" green="0.44736841320991516" blue="0.41077810525894165" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#e4e5e300" height="395.0" layoutX="42.0" layoutY="110.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="554.0" />
+      <JFXButton fx:id="login_btn" layoutX="230.0" layoutY="337.0" prefHeight="35.0" prefWidth="270.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Sign in" textFill="WHITE">
+         <font>
+            <Font name="Apple LiGothic Medium" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Text layoutX="76.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign in " wrappingWidth="207.7619171142578">
+         <font>
+            <Font name="Apple LiGothic Medium" size="53.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="login_phonenumber" cache="true" layoutX="229.0" layoutY="219.0" prefHeight="22.0" prefWidth="270.0" promptText="Enter your phone number">
+         <font>
+            <Font name="Apple LiGothic Medium" size="15.0" />
+         </font>
+      </JFXTextField>
+      <Text layoutX="85.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile Number" wrappingWidth="137.71987915039062">
+         <font>
+            <Font name="Apple LiGothic Medium" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="248.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By Sign in, you agree to Clothify's Conditions of Use and Privacy Notice." textAlignment="CENTER" wrappingWidth="234.88234907046456">
+         <font>
+            <Font name="Apple LiGothic Medium" size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="86.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="84.38294982910156">
+         <font>
+            <Font name="Apple LiGothic Medium" size="20.0" />
+         </font>
+      </Text>
+      <JFXPasswordField fx:id="login_password" layoutX="230.0" layoutY="265.0" prefHeight="12.0" prefWidth="270.0" promptText="Enter you password">
+         <font>
+            <Font name="Apple LiGothic Medium" size="15.0" />
+         </font>
+      </JFXPasswordField>
+      <Text layoutX="310.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do not have an account?" textAlignment="CENTER" wrappingWidth="116.8179931640625">
+         <font>
+            <Font name="Apple LiGothic Medium" size="10.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="login_createAccount" layoutX="273.0" layoutY="451.0" prefHeight="28.0" prefWidth="184.0" style="-fx-background-color: DDDDDD; -fx-background-radius: 10px;" text="Create New Account">
+         <font>
+            <Font name="Apple LiGothic Medium" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </JFXButton>
+      <JFXCheckBox fx:id="login_showPassword" checkedColor="#3679e4" graphicTextGap="0.0" layoutX="230.0" layoutY="300.0" text="Show Password">
+         <font>
+            <Font name="Apple LiGothic Medium" size="11.0" />
+         </font>
+      </JFXCheckBox>
+      <Separator layoutX="422.0" layoutY="433.0" prefHeight="12.0" prefWidth="94.0" />
+      <Separator layoutX="223.0" layoutY="432.0" prefHeight="12.0" prefWidth="94.0" />
+   </children>
+</AnchorPane>
