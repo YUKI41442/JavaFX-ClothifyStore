@@ -1,0 +1,1 @@
+package edu.icet.bo.asset;import jakarta.persistence.criteria.Order;public interface OrderBo {    void saveOrder(Order order);    String getLatestOrderId();    boolean deleteOrderById(String id);}

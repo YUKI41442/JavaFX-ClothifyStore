@@ -15,7 +15,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="placeOrderWindow" prefHeight="494.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.controller.CustomerDetailsFromController">
+<AnchorPane fx:id="dashboardWindow" prefHeight="494.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.CustomerDetailsFromController">
    <children>
       <Text layoutX="37.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify" wrappingWidth="158.24601026399273">
          <font>
@@ -65,7 +65,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Text>
-      <Separator layoutX="524.0" layoutY="53.0" prefHeight="18.0" prefWidth="200.0" />
+      <Separator layoutX="473.0" layoutY="53.0" prefHeight="18.0" prefWidth="200.0" />
       <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#c2cdd71a" height="286.0" layoutX="17.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="269.0" />
       <JFXButton fx:id="btnManageEmployee" layoutX="64.0" layoutY="167.0" onAction="#btnManageEmployeeOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Manage Employee" textFill="WHITE">
          <font>
@@ -115,9 +115,9 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <Text layoutX="502.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DASHBOARD" textAlignment="CENTER" wrappingWidth="192.317415112424">
+      <Text layoutX="434.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DASHBOARD" textAlignment="CENTER" wrappingWidth="259.78781306164274">
          <font>
-            <Font name="Apple LiGothic Medium" size="28.0" />
+            <Font name="Apple LiGothic Medium" size="43.0" />
          </font>
       </Text>
       <ImageView fitHeight="13.0" fitWidth="12.0" layoutX="633.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
@@ -311,6 +311,27 @@
       <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="675.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/icons8-dashboard-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="266.0" fitWidth="246.0" layoutX="315.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-z: 10;">
+         <image>
+            <Image url="@../img/pexels-lum3n-44775-322207.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="200.0" layoutX="332.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="330.0" fitWidth="168.0" layoutX="571.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pexels-jibarofoto-13536936.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="169.0" layoutX="392.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pexels-mart-production-7679725.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="62.0" layoutX="322.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pexels-pixabay-52518.jpg" />
          </image>
       </ImageView>
    </children>

@@ -16,7 +16,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="login_form" prefHeight="554.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.controller.LoginFormController">
+<AnchorPane fx:id="login_form" prefHeight="554.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.LoginFormController">
    <children>
       <Text layoutX="249.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify" wrappingWidth="162.0181726512743">
          <font>
@@ -38,6 +38,9 @@
                </stops>
             </RadialGradient>
          </fill>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Text>
       <Text layoutX="309.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Branderd Wear" wrappingWidth="68.37702885244619">
          <font>
@@ -61,7 +64,7 @@
          </fill>
       </Text>
       <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#e4e5e300" height="395.0" layoutX="42.0" layoutY="110.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="554.0" />
-      <JFXButton fx:id="login_btn" layoutX="230.0" layoutY="337.0" prefHeight="35.0" prefWidth="270.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Sign in" textFill="WHITE">
+      <JFXButton fx:id="btnSignIn" layoutX="230.0" layoutY="337.0" prefHeight="35.0" prefWidth="270.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Sign in" textFill="WHITE">
          <font>
             <Font name="Apple LiGothic Medium" size="20.0" />
          </font>
@@ -69,17 +72,17 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <Text layoutX="76.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign in " wrappingWidth="207.7619171142578">
+      <Text layoutX="74.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign in " wrappingWidth="207.7619171142578">
          <font>
             <Font name="Apple LiGothic Medium" size="53.0" />
          </font>
       </Text>
-      <JFXTextField fx:id="login_phonenumber" cache="true" layoutX="229.0" layoutY="219.0" prefHeight="22.0" prefWidth="270.0" promptText="Enter your phone number">
+      <JFXTextField fx:id="txtUserName" cache="true" layoutX="229.0" layoutY="219.0" prefHeight="22.0" prefWidth="270.0" promptText="Enter Username">
          <font>
             <Font name="Apple LiGothic Medium" size="15.0" />
          </font>
       </JFXTextField>
-      <Text layoutX="85.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile Number" wrappingWidth="137.71987915039062">
+      <Text layoutX="134.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="94.0">
          <font>
             <Font name="Apple LiGothic Medium" size="20.0" />
          </font>
@@ -89,12 +92,12 @@
             <Font name="Apple LiGothic Medium" size="10.0" />
          </font>
       </Text>
-      <Text layoutX="86.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="84.38294982910156">
+      <Text layoutX="135.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="84.38294982910156">
          <font>
             <Font name="Apple LiGothic Medium" size="20.0" />
          </font>
       </Text>
-      <JFXPasswordField fx:id="login_password" layoutX="230.0" layoutY="265.0" prefHeight="12.0" prefWidth="270.0" promptText="Enter you password">
+      <JFXPasswordField fx:id="txtPassword" layoutX="230.0" layoutY="265.0" prefHeight="12.0" prefWidth="270.0" promptText="Enter you password">
          <font>
             <Font name="Apple LiGothic Medium" size="15.0" />
          </font>
@@ -104,7 +107,7 @@
             <Font name="Apple LiGothic Medium" size="10.0" />
          </font>
       </Text>
-      <JFXButton fx:id="login_createAccount" layoutX="273.0" layoutY="451.0" prefHeight="28.0" prefWidth="184.0" style="-fx-background-color: DDDDDD; -fx-background-radius: 10px;" text="Create New Account">
+      <JFXButton fx:id="btncreateAccount" layoutX="275.0" layoutY="451.0" prefHeight="28.0" prefWidth="184.0" style="-fx-background-color: DDDDDD; -fx-background-radius: 10px;" text="Fogot Password">
          <font>
             <Font name="Apple LiGothic Medium" size="15.0" />
          </font>
@@ -115,7 +118,7 @@
             <Blend />
          </effect>
       </JFXButton>
-      <JFXCheckBox fx:id="login_showPassword" checkedColor="#3679e4" graphicTextGap="0.0" layoutX="230.0" layoutY="300.0" text="Show Password">
+      <JFXCheckBox fx:id="showPassword" checkedColor="#3679e4" graphicTextGap="0.0" layoutX="230.0" layoutY="300.0" text="Show Password">
          <font>
             <Font name="Apple LiGothic Medium" size="11.0" />
          </font>

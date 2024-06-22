@@ -1,0 +1,1 @@
+package edu.icet.dao.crud;import edu.icet.entity.UserEntity;import javafx.collections.ObservableList;public interface UserDao {    UserEntity search(String id);    UserEntity searchByEmail(String email);    ObservableList<UserEntity> getAll();    void insert(UserEntity userEntity);    boolean update(UserEntity userEntity);    boolean delete(String id);}
