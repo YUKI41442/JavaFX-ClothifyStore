@@ -17,7 +17,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="manageEmployeeWindow" prefHeight="495.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.CustomerDetailsFromController">
+<AnchorPane fx:id="manageEmployeeWindow" prefHeight="495.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.ManageEmployeeFromController">
    <children>
       <Text layoutX="37.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify" wrappingWidth="158.24601026399273">
          <font>
@@ -113,12 +113,12 @@
          <columns>
             <TableColumn fx:id="colEmployeeId" prefWidth="87.5" text="ID" />
             <TableColumn fx:id="colEmployeeName" prefWidth="106.5" text="Name" />
-            <TableColumn fx:id="colEmployeeEmail" prefWidth="138.5" text="Address" />
-            <TableColumn fx:id="colEmployeeAddress" prefWidth="121.5" text="Email" />
+            <TableColumn fx:id="colEmployeeEmail" prefWidth="138.5" text="Email" />
+            <TableColumn fx:id="colEmployeeAddress" prefWidth="121.5" text="Address" />
          </columns>
       </TableView>
       <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#c2cdd71a" height="286.0" layoutX="17.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="220.0" />
-      <JFXButton fx:id="btnManageEmployee" layoutX="41.0" layoutY="167.0" onAction="#btnManageEmployeeOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Manage Employee" textFill="WHITE">
+      <JFXButton fx:id="btnManageEmployee" layoutX="41.0" layoutY="167.0" onAction="#btnManageEmployeeOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Manage Employees" textFill="WHITE">
          <font>
             <Font name="Apple LiGothic Medium" size="17.0" />
          </font>
@@ -126,7 +126,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <JFXButton fx:id="btnOrderDetails" layoutX="41.0" layoutY="209.0" onAction="#btnOrderDetailsOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Order Details" textFill="WHITE">
+      <JFXButton fx:id="btnOrderDetails" layoutX="41.0" layoutY="209.0" onAction="#btnOrderDetailsOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Manage Orders" textFill="WHITE">
          <font>
             <Font name="Apple LiGothic Medium" size="17.0" />
          </font>
@@ -134,7 +134,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <JFXButton fx:id="btnProductDetails" layoutX="41.0" layoutY="251.0" onAction="#btnProductDetailsOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Product Details" textFill="WHITE">
+      <JFXButton fx:id="btnProductDetails" layoutX="41.0" layoutY="251.0" onAction="#btnProductDetailsOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Manage Products" textFill="WHITE">
          <font>
             <Font name="Apple LiGothic Medium" size="17.0" />
          </font>
@@ -142,7 +142,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <JFXButton fx:id="btnCustomerDetails" layoutX="41.0" layoutY="293.0" onAction="#btnCustomerDetailsOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Customer Details" textFill="WHITE">
+      <JFXButton fx:id="btnCustomerDetails" layoutX="41.0" layoutY="293.0" onAction="#btnCustomerDetailsOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Manage Customers" textFill="WHITE">
          <font>
             <Font name="Apple LiGothic Medium" size="17.0" />
          </font>
@@ -150,7 +150,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <JFXButton fx:id="btnSupplierDetails" layoutX="41.0" layoutY="335.0" onAction="#btnSuplierDetailsOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Supplier Details" textFill="WHITE">
+      <JFXButton fx:id="btnSupplierDetails" layoutX="41.0" layoutY="335.0" onAction="#btnSuplierDetailsOnAction" prefHeight="35.0" prefWidth="169.0" style="-fx-background-color: black; -fx-border-radius: 10;" text="Manage Suppliers" textFill="WHITE">
          <font>
             <Font name="Apple LiGothic Medium" size="17.0" />
          </font>
