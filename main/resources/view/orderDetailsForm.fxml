@@ -173,7 +173,7 @@
       <Rectangle arcHeight="10.0" arcWidth="10.0" height="52.0" layoutX="103.0" layoutY="420.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1.0" />
       <ImageView fitHeight="39.0" fitWidth="55.0" layoutX="699.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-permanent-job-100.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-permanent-job-100.png" />
          </image>
       </ImageView>
    </children>

@@ -174,17 +174,17 @@
       </Text>
       <ImageView fitHeight="22.0" fitWidth="18.0" layoutX="109.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-email-100.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-email-100.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="21.0" fitWidth="17.0" layoutX="109.0" layoutY="458.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-location-100.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-location-100.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="21.0" fitWidth="18.0" layoutX="109.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-phone-100.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-phone-100.png" />
          </image>
       </ImageView>
       <Text layoutX="128.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+94 123 456 789" textAlignment="CENTER" wrappingWidth="75.69702169093506">
@@ -239,7 +239,7 @@
       </JFXTextField>
       <ImageView fitHeight="86.0" fitWidth="47.0" layoutX="696.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-product-64.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-product-64.png" />
          </image>
       </ImageView>
    </children>

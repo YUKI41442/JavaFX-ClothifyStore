@@ -21,17 +21,17 @@
    <children>
       <ImageView fitHeight="13.0" fitWidth="12.0" layoutX="140.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-email-100.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-email-100.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="14.0" fitWidth="12.0" layoutX="139.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-location-100.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-location-100.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="11.0" fitWidth="16.0" layoutX="140.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-phone-100.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-phone-100.png" />
          </image>
       </ImageView>
       <Text layoutX="149.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+94 123 456 789" textAlignment="CENTER" wrappingWidth="69.35809346827881">
@@ -74,7 +74,7 @@
       </Text>
       <ImageView fitHeight="21.0" fitWidth="26.0" layoutX="559.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-instagram-200(-xxxhdpi).png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-instagram-200(-xxxhdpi).png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
@@ -82,7 +82,7 @@
       </ImageView>
       <ImageView fitHeight="21.0" fitWidth="28.0" layoutX="512.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-facebook-200(-xxxhdpi).png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-facebook-200(-xxxhdpi).png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
@@ -90,7 +90,7 @@
       </ImageView>
       <ImageView fitHeight="21.0" fitWidth="26.0" layoutX="536.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-linkedin-200(-xxxhdpi).png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-linkedin-200(-xxxhdpi).png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />

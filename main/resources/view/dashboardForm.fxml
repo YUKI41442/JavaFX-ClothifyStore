@@ -116,17 +116,17 @@
       </JFXButton>
       <ImageView fitHeight="13.0" fitWidth="12.0" layoutX="633.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-email-100.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-email-100.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="14.0" fitWidth="12.0" layoutX="633.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-location-100.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-location-100.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="11.0" fitWidth="16.0" layoutX="633.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-phone-100.png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-phone-100.png" />
          </image>
       </ImageView>
       <Text layoutX="642.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+94 123 456 789" textAlignment="CENTER" wrappingWidth="69.35809346827881">
@@ -279,7 +279,7 @@
       </Text>
       <ImageView fitHeight="21.0" fitWidth="26.0" layoutX="447.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-instagram-200(-xxxhdpi).png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-instagram-200(-xxxhdpi).png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
@@ -287,7 +287,7 @@
       </ImageView>
       <ImageView fitHeight="21.0" fitWidth="28.0" layoutX="400.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-facebook-200(-xxxhdpi).png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-facebook-200(-xxxhdpi).png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
@@ -295,7 +295,7 @@
       </ImageView>
       <ImageView fitHeight="21.0" fitWidth="26.0" layoutX="424.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-linkedin-200(-xxxhdpi).png" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/icons8-linkedin-200(-xxxhdpi).png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
@@ -306,17 +306,17 @@
       <Rectangle arcHeight="70.0" arcWidth="70.0" fill="#1f93ff00" height="325.0" layoutX="32.0" layoutY="44.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="466.0" />
       <ImageView fitHeight="306.0" fitWidth="191.0" layoutX="72.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/pexels-jibarofoto-13536936.jpg" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/pexels-jibarofoto-13536936.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="204.0" fitWidth="225.0" layoutX="248.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/pexels-tkirkgoz-18699686.jpg" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/pexels-tkirkgoz-18699686.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="102.0" fitWidth="211.0" layoutX="248.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/pexels-lum3n-44775-322207.jpg" />
+            <Image url="@../../../../../../../C#/newpro/src/main/resources/img/pexels-lum3n-44775-322207.jpg" />
          </image>
       </ImageView>
       <Text layoutX="424.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2024" wrappingWidth="43.29299551934787">
