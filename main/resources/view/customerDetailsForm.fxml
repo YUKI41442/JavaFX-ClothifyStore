@@ -68,7 +68,7 @@
             </cursor>
         </Text>
         <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#c2cdd71a" height="386.0" layoutX="257.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="482.0" />
-        <Separator layoutX="522.0" layoutY="53.0" prefHeight="18.0" prefWidth="200.0" />
+        <Separator layoutX="541.0" layoutY="58.0" prefHeight="18.0" prefWidth="200.0" />
         <JFXTextField fx:id="txtCustomerId" cache="true" layoutX="337.0" layoutY="108.0" prefHeight="27.0" prefWidth="155.0" promptText="Customer ID" unFocusColor="#4d4d4d">
             <font>
                 <Font name="Apple LiGothic Medium" size="15.0" />
@@ -101,7 +101,7 @@
                 <Cursor fx:constant="TEXT" />
             </cursor>
         </JFXTextField>
-        <JFXButton fx:id="btnAdd" layoutX="524.0" layoutY="169.0" onAction="#btnAddOnAction" prefHeight="27.0" prefWidth="96.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Add" textFill="WHITE">
+        <JFXButton fx:id="btnAdd" layoutX="524.0" layoutY="192.0" onAction="#btnAddOnAction" prefHeight="27.0" prefWidth="180.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Add" textFill="WHITE">
             <font>
                 <Font name="Apple LiGothic Medium" size="13.0" />
             </font>
@@ -109,7 +109,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </JFXButton>
-        <TableView fx:id="tblCustomer" layoutX="271.0" layoutY="308.0" prefHeight="149.0" prefWidth="453.0">
+        <TableView fx:id="tblCustomer" layoutX="271.0" layoutY="287.0" prefHeight="170.0" prefWidth="453.0">
             <columns>
                 <TableColumn fx:id="colCustomerId" prefWidth="87.5" text="ID" />
                 <TableColumn fx:id="colCustomerName" prefWidth="106.5" text="Name" />
@@ -166,7 +166,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </JFXButton>
-        <Text layoutX="500.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DASHBOARD" textAlignment="CENTER" wrappingWidth="192.317415112424">
+        <Text layoutX="521.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DASHBOARD" textAlignment="CENTER" wrappingWidth="192.317415112424">
             <font>
                 <Font name="Apple LiGothic Medium" size="32.0" />
             </font>
@@ -186,7 +186,7 @@
                 <Image url="@../img/icons8-phone-100.png" />
             </image>
         </ImageView>
-        <Text layoutX="128.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+94 123 456 789" textAlignment="CENTER" wrappingWidth="75.69702169093506">
+        <Text layoutX="128.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+94 123 456 789" textAlignment="CENTER" wrappingWidth="75.69702169093506">
             <font>
                 <Font name="Apple LiGothic Medium" size="10.0" />
             </font>
@@ -196,7 +196,7 @@
                 <Font name="Apple LiGothic Medium" size="10.0" />
             </font>
         </Text>
-        <Text layoutX="122.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Panadura, Sri Lanka" textAlignment="CENTER" wrappingWidth="95.55275571968764">
+        <Text layoutX="122.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Panadura, Sri Lanka" textAlignment="CENTER" wrappingWidth="95.55275571968764">
             <font>
                 <Font name="Apple LiGothic Medium" size="10.0" />
             </font>
@@ -206,13 +206,13 @@
                 <Font name="Apple LiGothic Medium" size="19.0" />
             </font>
         </Text>
-        <Text layoutX="58.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(PVT) Ltd." textAlignment="CENTER" wrappingWidth="42.126320091813966">
+        <Text layoutX="59.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(PVT) Ltd." textAlignment="CENTER" wrappingWidth="42.126320091813966">
             <font>
                 <Font name="Apple LiGothic Medium" size="7.0" />
             </font>
         </Text>
         <Rectangle arcHeight="10.0" arcWidth="10.0" height="52.0" layoutX="103.0" layoutY="420.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1.0" />
-        <JFXButton fx:id="btnClear" layoutX="524.0" layoutY="210.0" onAction="#btnClearOnAction" prefHeight="27.0" prefWidth="96.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Clear" textFill="WHITE">
+        <JFXButton fx:id="btnClear" layoutX="509.0" layoutY="232.0" onAction="#btnClearOnAction" prefHeight="27.0" prefWidth="96.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Clear" textFill="WHITE">
             <font>
                 <Font name="Apple LiGothic Medium" size="13.0" />
             </font>
@@ -220,7 +220,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </JFXButton>
-        <JFXButton fx:id="btnDelete" layoutX="524.0" layoutY="251.0" onAction="#btnDeleteOnAction" prefHeight="27.0" prefWidth="96.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Delete" textFill="WHITE">
+        <JFXButton fx:id="btnDelete" layoutX="625.0" layoutY="231.0" onAction="#btnDeleteOnAction" prefHeight="27.0" prefWidth="96.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Delete" textFill="WHITE">
             <font>
                 <Font name="Apple LiGothic Medium" size="13.0" />
             </font>
@@ -228,9 +228,14 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </JFXButton>
-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="677.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="54.0" fitWidth="39.0" layoutX="696.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-customer-64.png" />
+            <Image url="@../img/icons8-customer-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="115.0" layoutX="564.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pngwing.com.png" />
          </image>
       </ImageView>
     </children>

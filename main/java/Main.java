@@ -11,7 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/dashboardForm.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/forgotPasswordForm.fxml"))));
             stage.show();
     }
 }

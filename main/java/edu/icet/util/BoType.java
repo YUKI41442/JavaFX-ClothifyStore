@@ -1,1 +1,1 @@
-package edu.icet.util;public enum BoType {    USER,PRODUCT,ORDER,CUSTOMER,CART, PLACEORDER, SUPPLIER}
+package edu.icet.util;public enum BoType {    USER,PRODUCT,CUSTOMER,PLACEORDER,SUPPLIER}

@@ -5,7 +5,6 @@
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -18,7 +17,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="loginWindow" prefHeight="505.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.LoginFormController">
+<AnchorPane fx:id="loginWindow" prefHeight="505.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.SignUpFormController">
    <children>
       <ImageView fitHeight="13.0" fitWidth="12.0" layoutX="140.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -192,15 +191,9 @@
       </Text>
       <Separator layoutX="498.0" layoutY="449.0" orientation="VERTICAL" prefHeight="43.0" prefWidth="2.0" />
       <Separator layoutX="128.0" layoutY="450.0" orientation="VERTICAL" prefHeight="43.0" prefWidth="2.0" />
-      <ImageView fitHeight="433.0" fitWidth="300.0" layoutX="-31.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../img/pexels-sidneimaia-3489129.jpg" />
-         </image>
-      </ImageView>
-      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#1f93ff00" height="304.0" layoutX="270.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="336.0" />
-      <Text layoutX="359.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify" wrappingWidth="162.0181726512743">
+      <Text layoutX="26.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify" wrappingWidth="108.98472538564931">
          <font>
-            <Font name="Apple LiGothic Medium" size="53.0" />
+            <Font name="Apple LiGothic Medium" size="38.0" />
          </font>
          <fill>
             <RadialGradient centerX="0.4113573407202216" centerY="0.9418052256532066" radius="0.869942196531792">
@@ -222,9 +215,9 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Text>
-      <Text layoutX="419.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Branderd Wear" wrappingWidth="68.37702885244619">
+      <Text layoutX="65.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Branderd Wear" wrappingWidth="68.37702885244619">
          <font>
-            <Font name="Apple LiGothic Medium" size="10.0" />
+            <Font name="Apple LiGothic Medium" size="8.0" />
          </font>
          <fill>
             <LinearGradient endX="0.3681710213776722" startX="0.6864608076009502" startY="0.6888361045130641">
@@ -246,47 +239,42 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Text>
-      <JFXButton fx:id="btnSignIn" layoutX="310.0" layoutY="297.0" onAction="#btnSignInOnAction" prefHeight="29.0" prefWidth="270.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Sign in" textFill="WHITE">
+      <Rectangle arcHeight="70.0" arcWidth="70.0" fill="#1f93ff00" height="351.0" layoutX="189.0" layoutY="43.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="397.0" />
+      <JFXButton fx:id="btnSignIn" layoutX="273.0" layoutY="296.0" onAction="#btnSignInOnAction" prefHeight="33.0" prefWidth="274.0" style="-fx-background-color: #3395FF; -fx-background-radius: 10px;" text="Sign Up" textFill="WHITE">
          <font>
-            <Font name="Apple LiGothic Medium" size="20.0" />
+            <Font name="Apple LiGothic Medium" size="19.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <Text layoutX="286.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign in " wrappingWidth="132.7619171142578">
+      <Text layoutX="208.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create account" wrappingWidth="220.5181942803664">
          <font>
-            <Font name="Apple LiGothic Medium" size="41.0" />
+            <Font name="Apple LiGothic Medium" size="36.0" />
          </font>
       </Text>
-      <JFXTextField fx:id="txtUserName" cache="true" layoutX="310.0" layoutY="187.0" prefHeight="22.0" prefWidth="270.0" promptText="Enter Username">
+      <JFXTextField fx:id="txtUserName" cache="true" layoutX="274.0" layoutY="109.0" prefHeight="22.0" prefWidth="270.0" promptText="Enter Name">
          <font>
             <Font name="Apple LiGothic Medium" size="15.0" />
          </font>
       </JFXTextField>
-      <Text layoutX="328.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By Sign in, you agree to Clothify's Conditions of Use and Privacy Notice." textAlignment="CENTER" wrappingWidth="234.88234907046456">
+      <Text layoutX="276.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By creating an account,you agree to Clothify Conditions of Use and Privacy Notice." wrappingWidth="183.75571638003487">
          <font>
             <Font name="Apple LiGothic Medium" size="10.0" />
          </font>
       </Text>
-      <JFXPasswordField fx:id="txtPassword" layoutX="310.0" layoutY="229.0" prefHeight="12.0" prefWidth="270.0" promptText="Enter you password">
+      <JFXPasswordField fx:id="txtPassword" layoutX="274.0" layoutY="227.0" prefHeight="12.0" prefWidth="270.0" promptText="Enter you password">
          <font>
             <Font name="Apple LiGothic Medium" size="15.0" />
          </font>
       </JFXPasswordField>
-      <JFXCheckBox fx:id="cbShowPassword" checkedColor="#3679e4" graphicTextGap="0.0" layoutX="310.0" layoutY="269.0" onAction="#cbShowPasswordOnAction" text="Show Password">
+      <JFXCheckBox fx:id="cbShowPassword" checkedColor="#3679e4" graphicTextGap="0.0" layoutX="274.0" layoutY="265.0" onAction="#cbShowPasswordOnAction" text="Show Password">
          <font>
             <Font name="Apple LiGothic Medium" size="11.0" />
          </font>
       </JFXCheckBox>
-      <Separator layoutX="486.0" layoutY="375.0" prefHeight="12.0" prefWidth="87.0" />
-      <Separator layoutX="313.0" layoutY="375.0" prefHeight="12.0" prefWidth="94.0" />
-      <Hyperlink fx:id="linkForgotPassword" layoutX="511.0" layoutY="270.0" onAction="#ForgotPasswordOnAction" text="Forgot Password" textFill="RED">
-         <font>
-            <Font name="Apple LiGothic Medium" size="10.0" />
-         </font>
-      </Hyperlink>
-      <JFXButton fx:id="btnSignUp" layoutX="392.0" layoutY="390.0" onAction="#SignUpOnAction" prefHeight="18.0" prefWidth="106.0" style="-fx-background-color: gray; -fx-background-radius: 10px;" text="Create New Account" textFill="WHITE">
+      <Separator layoutX="275.0" layoutY="368.0" prefHeight="12.0" prefWidth="82.0" />
+      <JFXButton fx:id="btnSignUp" layoutX="363.0" layoutY="383.0" onAction="#SignUpOnAction" prefHeight="20.0" prefWidth="88.0" style="-fx-background-color: gray; -fx-background-radius: 10px;" text="Sign in" textFill="WHITE">
          <font>
             <Font name="Apple LiGothic Medium" size="11.0" />
          </font>
@@ -294,10 +282,21 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <Text layoutX="407.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New To Clothify?" textAlignment="CENTER" wrappingWidth="79.14083882960693">
+      <Text fill="RED" layoutX="358.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already have an account?" textAlignment="CENTER" wrappingWidth="99.51760396736483">
          <font>
             <Font name="Apple LiGothic Medium" size="9.0" />
          </font>
       </Text>
+      <JFXTextField fx:id="txtUserName1" cache="true" layoutX="274.0" layoutY="188.0" prefHeight="22.0" prefWidth="270.0" promptText="Re-enter Your Email Address">
+         <font>
+            <Font name="Apple LiGothic Medium" size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtUserName11" cache="true" layoutX="273.0" layoutY="148.0" prefHeight="22.0" prefWidth="270.0" promptText="Enter Email Address">
+         <font>
+            <Font name="Apple LiGothic Medium" size="15.0" />
+         </font>
+      </JFXTextField>
+      <Separator layoutX="457.0" layoutY="368.0" prefHeight="12.0" prefWidth="82.0" />
    </children>
 </AnchorPane>
